@@ -41,7 +41,7 @@ The `room` parameter is required and must be the first query parameter. Room nam
 2. Connect to `ws://localhost:3000/ws?room=gaming`.
 3. Open a second WebSocket request using the exact same URL.
 4. Send a text message from either client.
-5. The other client receives the message.
+5. The other client receives the message
 
 When a client connects, it receives:
 
